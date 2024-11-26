@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(){
 
-int x;
-scanf("%d",&x);
-int y;
-scanf("%d",&y);
+int x = 5;
+int y = 6;
+
 if (x>y){
 	printf("x is greater than y");
 } else {
