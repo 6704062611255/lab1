@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main(){
- int x,y;
- scanf("%d %d",&x, &y);
+ int x;
+ int y;
+ scanf("%d ",&x);
+ scanf("%d",&y);
  if (x>y){
 	printf("x is greater than y \n");
 	printf("diff x>y = %d \n",(x-y));
